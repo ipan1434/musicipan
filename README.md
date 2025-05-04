@@ -1,4 +1,3 @@
-```
 git clone https://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@github.com/ipan1434/musicipan
 ```
 pip3 install git
@@ -11,10 +10,10 @@ apt install git
 apt update && apt-upgrade -y
 ```
 ```
-tmux new-session -s namarepo
+tmux new-session -s musicipan
 ```
 ```
-screen -S namarepo
+screen -S musicipan
 ```
 ```
 apt install python3.12-venv
