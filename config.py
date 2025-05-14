@@ -8,11 +8,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "25544803"))
-API_HASH = getenv("API_HASH", "e01c80b4dfafff7085f57edbb5a673b0")
+API_ID = int(getenv("API_ID", "28174304"))
+API_HASH = getenv("API_HASH", "227eae8466b8f68565060906069ca9e5")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7500354530:AAEnC2tGj2rLg9SE5Zryu1MYB9sasbAeQGs")
+BOT_TOKEN = getenv("BOT_TOKEN", "7881440998:AAFODUIv7rHRMUKutq-T5RMYI1k8hq5XnS8")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://anisalynch20:fGCU0snOtdkiujsI@jovay.h6l2f.mongodb.net/?retryWrites=true&w=majority&appName=jovay")
@@ -20,10 +20,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://anisalynch20:fGCU0snOtdkiuj
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 5000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002692266809"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002511929038"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "293062346"))
+OWNER_ID = int(getenv("OWNER_ID", "5596830979"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -81,13 +81,13 @@ confirmer = {}
 
 
 START_VIDEO_URL = getenv(
-    "START_VIDEO_URL", "https://files.catbox.moe/v6bg7z.mp4"
+    "START_VIDEO_URL", "https://files.catbox.moe/u109xi.mp4"
 )
 PING_VIDEO_URL = getenv(
-    "PING_VIDEO_URL", "https://files.catbox.moe/v6bg7z.mp4"
+    "PING_VIDEO_URL", "https://files.catbox.moe/u109xi.mp4"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/u109xi.mp4"
+STATS_IMG_URL = "https://files.catbox.moe/u109xi.mp4"
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
